@@ -2,8 +2,8 @@
 /*
 Plugin Name: Elexicon Maintenance Plugin
 Plugin URI: elexicon.com
-Description: Maintenance plugin from Elexicon for Elementor-based sites.
-Version: 0.0.2
+Description: Maintenance plugin from Elexicon.
+Version: 0.0.3
 Author: Elexicon
 Contributors: Joseph Greve
 */
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Set up Updates
 require 'plugin-update-checker/plugin-update-checker.php';
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/lime517/elexicon-maintenance-plugin.git',
+	'https://github.com/lime517/elexicon-maintenance-plugin',
 	__FILE__,
 	'elexicon-maintenance-plugin' // name of repo
 );

@@ -3,9 +3,11 @@
 Plugin Name: Elexicon Maintenance Plugin
 Plugin URI: elexicon.com
 Description: Maintenance plugin from Elexicon for Elementor-based sites.
-Version: 0.0.1
-Author: Joseph Greve
+Version: 0.0.2
+Author: Elexicon
+Contributors: Joseph Greve
 */
+// Please remember to update the version numbers in readme.txt.
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
